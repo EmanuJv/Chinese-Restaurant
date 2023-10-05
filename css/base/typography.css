@@ -1,13 +1,25 @@
+.headerTextContainer{
+    background-color: rgba(35, 35, 35, 0.71) ;
+    width: 832px;
+    height: 260px;
+    margin: auto;
+    border-radius: 97px;
+}
+
 .hero-title{
     font-family: var(--ff-main);
-    font-size: clamp(var(--fs-lg), 4rem, var(--fs-xl));
+    font-size: 64px;
     font-weight: var(--fw-bk);
+    margin: 0 auto 2rem;
+    top: 30px;
+    position: relative;
 }
 
 .hero-text{
-    font-size: var(--fs-md);
-    width: clamp(30ch, 50%, 55ch);
+    font-size: 24px;
     margin: 0 auto 2rem;
+    top: 20px;
+    position: relative;
 }
 
 .activity-title{

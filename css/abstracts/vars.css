@@ -27,4 +27,16 @@
     --clr-gray-txt: hsla(0, 0%, 55%, 1);
     --clr-black: hsla(0, 0%, 0%, 1);
     --clr-black-light: hsla(0, 0%, 0%, .5);
+
+    /*Variables project*/
+
+    --clr-red:hsla(0, 80, 47, 100%);
+    --clr-black: hsla(0, 0%, 0%, 100%);
+
+
+
 }
+
+/*Variables project*/
+
+
