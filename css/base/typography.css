@@ -2,8 +2,9 @@
     background-color: rgba(35, 35, 35, 0.71) ;
     width: 832px;
     height: 260px;
-    margin: auto;
-    border-radius: 97px;
+    margin-top: 250px;
+    margin-left: 500px;
+    border-radius: 90px;
 }
 
 .hero-title{
@@ -22,20 +23,22 @@
     position: relative;
 }
 
-.activity-title{
+.recipe-title{
     font-size:  var(--fs-md);
     font-family: var(--ff-main);
+    color: white;
     margin: 1rem 0 0;
 }
 
-.activity-text{
+.recipe-text{
     font-size: var(--fs-nm);
+    color: white;
 }
 
-.destinations-title{
+.recipes-title{
     font-family: var(--ff-main);
     font-size: clamp(var(--fs-md), 1.875rem, var(--fs-lg));
-    width: 17ch;
+    width: 25ch;
     margin: 1rem auto;
 }
 

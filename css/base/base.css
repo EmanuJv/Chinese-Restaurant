@@ -3,10 +3,9 @@ html{
 }
 
 body{
-    width: 1440px;
     background-color: white;
     display: grid;
     font-family: var(--ff-secondary);
-    margin: auto;
-    min-height: auto;
+    margin: 0;
+    padding: 0;
 }

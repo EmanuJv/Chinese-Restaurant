@@ -1,16 +1,20 @@
-.activities-container{
+.food-container{
     display: grid;
     width: 80vw;
-    margin: 2rem auto;
+    margin: 5rem auto;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1.5rem;
 }
+.image-behind{
+    background: url(../../imgs/header.jpg);
+    
+}
 
-.activity{
+.recipe{
     display: grid;
-    background: var(--clr-white);
+    background: rgba(216, 22, 22, 1);
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 2rem 0.1rem ;
     border-radius: 2rem;
 }
 
@@ -31,9 +35,16 @@
     gap: .5rem;
 }
 
-.destinations-container{
+.recipes-container{
     text-align: center;
 }
+.rice-image{
+    position: relative;
+    width: 219px;
+    height: 178px;
+    margin: auto;
+}
+
 
 @media (max-width: 768.98px) {
   

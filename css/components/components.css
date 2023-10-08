@@ -18,13 +18,13 @@
     margin: auto;
 }
 
-.activity-thumb{
+.recipe-thumb{
     display: flex;
     position: relative;
     padding: 0 1rem;
 }
 
-.activity-image{
+.recipe-image{
     display: block;
     width: 100%;
     border-radius: 1rem;
@@ -55,13 +55,14 @@
 
 .read-btn{
     display: block;
-    width: 50%;
-    padding: 1rem 1.5rem;
-    background: var(--clr-gray-bg);
-    color: var(--clr-gray-txt);
+    width: 80%;
+    padding: 1rem 0.01rem;
+    background: rgb(82, 82, 82);
+    color: white;
     text-decoration: none;
     margin: auto;
 }
+
 
 .subscribe-image{
     display: block;
@@ -79,4 +80,3 @@
     background-repeat: no-repeat;
     cursor: pointer;
 }
-

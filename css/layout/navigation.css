@@ -3,8 +3,8 @@
     align-items: center;
     margin-bottom: 8rem;
     background-color: rgba(216, 22, 22, 1);
-    width: 1440px;
-    height: 81px;
+    height: 81px; 
+    width: 99.2vw;
 }
 
 
@@ -27,8 +27,7 @@
     padding: 0;
     gap: 3rem;
     list-style-type: none;
-    margin-left: 44rem;
- 
+    
 }
 
 .nav-list-link{
@@ -64,7 +63,7 @@
 .sectionTwoActivity{
     width: 300px;
     height: 196px;
-    border-radius: 1.5rem  1.5rem 0 0;
+    border-radius: 68px 68px 58px 58px;
 }
 
 .sectionTwoText{
