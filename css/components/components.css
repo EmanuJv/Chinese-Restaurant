@@ -36,9 +36,8 @@
     position: absolute;
     background: none;
     border: none;
-    height: 0;
     right: 2rem;
-    bottom: 340px;
+    bottom: 215px;
     cursor: pointer;
 }
 
