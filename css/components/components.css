@@ -1,7 +1,6 @@
 .btn{
     display: flex;
     align-items: center;
-    background: var(--clr-main);
     border-radius: 1.5rem;
     padding: .5rem 2rem;
     text-decoration: none;
@@ -30,16 +29,17 @@
     height: 253px;
     object-fit: cover;
     position: relative;
-    top: 60px;
+    top: 50px;
 }
 
 .like-btn{
     position: absolute;
-    background: var(--clr-white);
+    background: none;
     border: none;
-    border-radius: .5rem;
-    top: 1rem;
+    height: 0;
     right: 2rem;
+    bottom: 340px;
+    cursor: pointer;
 }
 
 .activity-price{

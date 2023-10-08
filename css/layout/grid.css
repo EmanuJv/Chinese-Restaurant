@@ -13,13 +13,13 @@
 .recipe{
     display: grid;
     background: linear-gradient(to bottom, #D81616 15%, #DCDCDC 0%);
-    text-align: center;
     align-items: center;
     justify-content: center;
     padding: 2rem 0.1rem ;
-    border-radius: 2rem;
-    width: 375px;
-    height: 528px;
+    border-radius: 0 0 60px 60px;
+    width: 373px;
+    height: 475px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .subcribe{
