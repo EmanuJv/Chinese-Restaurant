@@ -26,8 +26,11 @@
 
 .recipe-image{
     display: block;
-    width: 100%;
-    border-radius: 1rem;
+    width: 377px;
+    height: 253px;
+    object-fit: cover;
+    position: relative;
+    top: 60px;
 }
 
 .like-btn{

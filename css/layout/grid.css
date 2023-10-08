@@ -12,10 +12,14 @@
 
 .recipe{
     display: grid;
-    background: rgba(216, 22, 22, 1);
+    background: linear-gradient(to bottom, #D81616 15%, #DCDCDC 0%);
     text-align: center;
+    align-items: center;
+    justify-content: center;
     padding: 2rem 0.1rem ;
     border-radius: 2rem;
+    width: 375px;
+    height: 528px;
 }
 
 .subcribe{
