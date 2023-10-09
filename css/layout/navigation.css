@@ -1,35 +1,27 @@
 .top-nav{
     display: flex;
     align-items: center;
-    margin-bottom: 8rem;
     background-color: rgba(216, 22, 22, 1);
-    height: 81px; 
-    width: 99.2vw;
+    height: 5.063rem; 
 }
 
 
 .logo{
-    width: 64px;
-    height: 56px;
-    position: relative;
-    left: 12rem;
+    width: 4rem;
+    height: 3.5rem;
+    margin-left: 9.375rem;
 }
 
 .nav-title{
-    position: relative;
-    font-size: 32px;
-    left: 14rem;
+    display: flex;
+    font-size: 2rem;
+    margin-left: 1.5rem;
 }
 
 .nav-list{
     display: flex;
-    align-items: center;
-    padding: 0;
     gap: 3rem;
     list-style-type: none;
-    position: relative;
-    left: 57%;
-    
 }
 
 .nav-list-link{
@@ -46,33 +38,32 @@
 
 .sectionTwoContainer{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-content: center;
-    gap: 2.7rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     font-weight: var(--fw-md);
-    padding: 10rem;
+    margin: 10rem auto;
+    width: 80vw;
+    gap: 1.5rem;
 }
 
 .sectionTwoCard{
-    border-radius: 68px;
-    width: 300px;
-    height: 302px;
+    border-radius: 4.25rem;
+    width: 18.75rem;
     background-color:rgba(216, 22, 22, 1);
     display: grid;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .sectionTwoActivity{
-    width: 300px;
-    height: 196px;
-    border-radius: 68px 68px 58px 58px;
+    display: grid;
+    width: 18.75rem;
+    height: 12.25rem;
+    border-radius: 4.25rem  4.25rem  4.25rem  4.25rem;
 }
 
 .sectionTwoText{
     font-size: var(--fs-md);
-    display: flex;
     margin: auto;
-    font-size: 36px;
+    font-size: 2.25rem;
     color: white; 
 }
 

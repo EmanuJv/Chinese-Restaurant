@@ -3,12 +3,9 @@
     width: 80vw;
     margin: 5rem auto;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
+    gap: 5rem;
 }
-.image-behind{
-    background: url(../../imgs/header.jpg);
-    
-}
+
 
 .card{
     position:relative;
@@ -51,8 +48,8 @@
     justify-content: center;
     padding: 2rem 0.1rem ;
     border-radius: 0 0 60px 60px;
-    width: 373px;
-    height: 475px;
+    width: 23.313rem;
+    height: 29.688rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -87,6 +84,11 @@
 }
 
 .recipes-container{
+    text-align: center;
+}
+
+.rice-container{
+    display: grid;
     text-align: center;
 }
 .rice-image{

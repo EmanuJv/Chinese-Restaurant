@@ -1,26 +1,24 @@
 .headerTextContainer{
+    display: grid;
     background-color: rgba(35, 35, 35, 0.71) ;
-    width: 832px;
-    height: 260px;
-    margin-top: 250px;
-    margin-left: 500px;
-    border-radius: 90px;
+    width: 52rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem auto;
+    border-radius: 5.625rem;
 }
 
 .hero-title{
     font-family: var(--ff-main);
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: var(--fw-bk);
-    margin: 0 auto 2rem;
-    top: 30px;
-    position: relative;
+    margin: 1.5rem auto 2rem;
 }
 
 .hero-text{
-    font-size: 24px;
+    font-size: 1.5rem;
     margin: 0 auto 2rem;
-    top: 20px;
-    position: relative;
 }
 
 .recipe-title{
