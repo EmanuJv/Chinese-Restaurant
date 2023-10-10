@@ -1,15 +1,14 @@
 .food-container{
     display: grid;
     width: 80vw;
-    margin: 12rem auto;
+    margin: 17rem auto;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 6rem;
 }
 
 
 .card{
-    width: 23rem;
-    height: 29rem;
+    width: 17rem;
+    height: 23rem;
 }
 
 .card section {
@@ -83,11 +82,18 @@
 
 .recipes-container{
     text-align: center;
+    background-color: #C0C0C0;
+    background-size: cover;
+    background-position: top;
+    border-radius: 10rem;
+    display: inline-block;
+    width: 100%;
 }
 
 .rice-container{
     display: grid;
     text-align: center;
+    padding-bottom: 9rem;
 }
 .rice-image{
     width: 219px;
