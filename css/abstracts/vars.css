@@ -19,7 +19,8 @@
 
     /*Colors*/
 
-    --clr-main: hsla(12, 76%, 61%, 1);
+    --clr-main: hsla(0, 82%, 47%, 1);
+    
     --clr-main-bg: hsla(15, 44%, 96%, 1);
     --clr-inner-bg: hsla(12, 67%, 92%, 1);
     --clr-white: hsla(0, 0%, 100%, 1);

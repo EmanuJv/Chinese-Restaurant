@@ -19,15 +19,15 @@
 
 .recipe-thumb{
     display: grid;
- text-align: center;
+    text-align: center;
 }
 
 .recipe-image{
     display: block;
-    width: 377px;
-    height: 253px;
+    width: 23.219rem;
+    height: 15.813rem;
     object-fit: cover;
-    margin: 6rem;
+    margin: 2rem;
 }
 
 .like-btn{

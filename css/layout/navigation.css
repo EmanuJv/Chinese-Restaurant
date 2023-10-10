@@ -1,7 +1,7 @@
 .top-nav{
     display: flex;
     align-items: center;
-    background-color: rgba(216, 22, 22, 1);
+    background-color: var(--clr-main);
     height: 5.063rem; 
 }
 
