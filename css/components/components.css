@@ -31,6 +31,7 @@
     border-radius: 37px;
     transition: background-color 0.3s;
     cursor: pointer;
+    margin: auto;
 }
 .register-invitation-btn:hover{
     background-color: var(--clr-main);
@@ -111,5 +112,6 @@
         margin: auto;
         text-align: center;
         order: 2;
+        border-radius: 0;
     }
 }

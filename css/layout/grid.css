@@ -3,10 +3,13 @@
     width: 80vw;
     margin: 17rem auto;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15rem;
 }
 
 
 .card{
+    display: grid;
+    ;
     width: 17rem;
     height: 23rem;
 }
@@ -17,6 +20,7 @@
     justify-content: center;
     backface-visibility: hidden;
     transition: 1s;
+    gap: 10rem;
 }
 
 .card .recipeFront{
@@ -80,7 +84,7 @@
     background-color: #000000;   
 }
 
-.subscribe-content{
+.register-invitation-content{
     display: grid;
     gap: 2rem;
     align-content: center;
@@ -124,9 +128,17 @@
 
 @media (max-width: 768.98px) {
   
-    .subscribe-content{
+    .register-invitation-content{
         margin: 0 1rem 2rem;
         text-align: center;
+        align-items: center;
+        align-content: center;
         order: 2;
+        gap: 3rem;
     }
+
+    .register-invitation-cta{
+        width: 50%;
+    }
+
 }
