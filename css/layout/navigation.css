@@ -9,7 +9,7 @@
 .logo{
     width: 4rem;
     height: 3.5rem;
-    margin-left: 9.375rem;
+    margin-left: 7rem;
 }
 
 .nav-title{
@@ -22,6 +22,7 @@
     display: flex;
     gap: 3rem;
     list-style-type: none;
+    margin-left: 2.5rem;
 }
 
 .nav-list-link{
@@ -42,7 +43,7 @@
     font-weight: var(--fw-md);
     margin: 10rem auto;
     width: 80vw;
-    gap: 1.5rem;
+    gap: 3rem;
 }
 
 .sectionTwoCard{
@@ -54,7 +55,7 @@
 }
 
 .sectionTwoActivity{
-    display: grid;
+    display: block;
     width: 18.75rem;
     height: 12.25rem;
     border-radius: 4.25rem  4.25rem  4.25rem  4.25rem;

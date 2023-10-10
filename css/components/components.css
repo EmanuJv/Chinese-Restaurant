@@ -18,9 +18,8 @@
 }
 
 .recipe-thumb{
-    display: flex;
-    position: relative;
-    padding: 0 1rem;
+    display: grid;
+ text-align: center;
 }
 
 .recipe-image{
@@ -28,8 +27,7 @@
     width: 377px;
     height: 253px;
     object-fit: cover;
-    position: relative;
-    top: 50px;
+    margin: 6rem;
 }
 
 .like-btn{
@@ -37,7 +35,7 @@
     background: none;
     border: none;
     right: 2rem;
-    bottom: 220px;
+    bottom: 13.75rem;
     cursor: pointer;
 }
 
