@@ -48,15 +48,16 @@
     text-shadow:  1px 1.5px 0px rgba(0, 0, 0, 0.5);
 }
 
-.subscribe-title{
+.register-invitation-title{
     font-size: clamp(2rem, 2.25rem, var(--fs-lg)) ;
     width: min(80%, 90%, 100%);
     margin: 0;
+    color: white;
 }
 
 @media (max-width: 768.98px) {
 
-    .subscribe-title{
+    .register-invitation-title{
         margin: auto;
     }
 }

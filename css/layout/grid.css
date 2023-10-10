@@ -63,21 +63,41 @@
 
 }
 
+.register-invitation-cta{
+    display: grid;
+    width: 70vw;
+    margin: 5rem auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+
+
 .subcribe{
-    border-radius: 2rem;
-    background: var(--clr-inner-bg);   
+    border-radius: 4.5rem;
+    background-color: #000000;   
 }
 
 .subscribe-content{
     display: grid;
+    gap: 2rem;
     align-content: center;
-    margin-left: 3rem;
+    margin-left: 6rem;
 }
 
 
 .cta-app-container{
     display: flex;
     gap: .5rem;
+}
+
+.cta-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
 }
 
 .recipes-container{
