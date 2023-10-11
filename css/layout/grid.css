@@ -24,7 +24,7 @@
     align-items: center;
     justify-content: center;
     backface-visibility: hidden;
-    transition: 1s;
+    /*transition: 1s;*/
 }
 
 .card .recipeFront{
@@ -109,6 +109,7 @@
     background-color: #C0C0C0;
     border-radius: 10rem;
     overflow: auto;
+    width: 100vw;
 }
 
 .rice-container{
@@ -116,19 +117,10 @@
     text-align: center;
     padding-bottom: 9rem;
 }
-.rice-image{
-    width: 219px;
-    height: 178px;
-    margin: auto;
-}
 
 
-@media (max-width: 768.98px) {
 
-
-    .card{
-        margin: 0;
-    }
+@media (max-width: 768px) {
 
   
     .register-invitation-content{
@@ -145,3 +137,4 @@
     }
 
 }
+
