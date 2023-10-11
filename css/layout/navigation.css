@@ -73,7 +73,7 @@
 /*END OF Section 2*/
 
 @media (max-width: 768.98px) {
-    .nav-list{
+  /*  .nav-list{
         display: grid;
         position: fixed;
         margin: 0;
@@ -89,7 +89,7 @@
         gap: 2.5rem;
         text-align: right;
         padding-right: 1rem;
-    }
+    }*/
     
         .sectionTwoContainer{
             margin-right: 2rem;

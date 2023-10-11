@@ -1,19 +1,22 @@
 .food-container{
     display: grid;
     width: 80vw;
+    height: 60vw;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1.5rem;
-    margin: 10rem auto;
+    margin: 2rem;
+    align-content: center;
 }
 
 
 .card{
     display: grid;
     text-align: center;
-    width: 50vw;
-    height: 23rem;
-    padding: 2rem 1rem;
+    margin: auto;
     justify-content: center;
+    position: relative;
+    align-items: center;
+    height: fit-content;
 }
 
 .card section {
@@ -43,10 +46,8 @@
 
 
 .recipeFront{
-    display: grid;
+    display: flex;
     background: linear-gradient(to bottom, #D81616 15%, #DCDCDC 0%);
-    align-items: center;
-    justify-content: center;
     padding: 2rem 0.1rem ;
     border-radius: 0 0 60px 60px;
     width: 23rem;
@@ -58,8 +59,6 @@
 .recipeBack{
     display: grid;
     background: linear-gradient(to bottom, #D81616 15%, #DCDCDC 0%);
-    align-items: center;
-    justify-content: center;
     padding: 2rem 0.1rem ;
     border-radius: 0 0 60px 60px;
     width: 23rem;
@@ -125,6 +124,11 @@
 
 
 @media (max-width: 768.98px) {
+
+
+    .card{
+        margin: 0;
+    }
 
   
     .register-invitation-content{

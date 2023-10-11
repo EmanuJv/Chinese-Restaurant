@@ -46,7 +46,7 @@
 }
 
 .recipe-image{
-    display: block;
+    display: grid;
     width: 23.219rem;
     height: 15.813rem;
     object-fit: cover;
