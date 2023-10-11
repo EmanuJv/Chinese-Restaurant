@@ -1,17 +1,19 @@
 .food-container{
     display: grid;
     width: 80vw;
-    margin: 17rem auto;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 15rem;
+    gap: 1.5rem;
+    margin: 10rem auto;
 }
 
 
 .card{
     display: grid;
-    ;
-    width: 17rem;
+    text-align: center;
+    width: 50vw;
     height: 23rem;
+    padding: 2rem 1rem;
+    justify-content: center;
 }
 
 .card section {
@@ -20,7 +22,6 @@
     justify-content: center;
     backface-visibility: hidden;
     transition: 1s;
-    gap: 10rem;
 }
 
 .card .recipeFront{
@@ -42,7 +43,7 @@
 
 
 .recipeFront{
-    display: flex;
+    display: grid;
     background: linear-gradient(to bottom, #D81616 15%, #DCDCDC 0%);
     align-items: center;
     justify-content: center;
@@ -107,11 +108,8 @@
 .recipes-container{
     text-align: center;
     background-color: #C0C0C0;
-    background-size: cover;
-    background-position: top;
     border-radius: 10rem;
-    display: inline-block;
-    width: 100%;
+    overflow: auto;
 }
 
 .rice-container{
@@ -127,6 +125,7 @@
 
 
 @media (max-width: 768.98px) {
+
   
     .register-invitation-content{
         margin: 0 1rem 2rem;
