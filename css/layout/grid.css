@@ -8,6 +8,16 @@
     align-content: center;
 }
 
+.sectionTwoContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    font-weight: var(--fw-md);
+    gap: 2rem;
+    width: 80vw;
+    margin: 10rem auto;
+}
+
+
 
 .card{
     display: grid;
@@ -122,6 +132,7 @@
 
 
 @media (max-width: 768px) {
+
 
   
     .register-invitation-content{

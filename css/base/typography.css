@@ -6,6 +6,7 @@
     border-radius: 5.625rem;
     overflow: auto;
     text-align: center;
+    padding: 1.5rem;
 }
 
 .hero-title{
@@ -36,7 +37,6 @@
 .recipes-title{
     font-family: var(--ff-main);
     font-size: clamp(var(--fs-md), 1.875rem, var(--fs-lg));
-    width: 25ch;
     margin: 1rem auto;
 }
 
@@ -56,10 +56,7 @@
 }
 
 @media (max-width: 768.98px) {
-    .headerTextContainer{
-        margin: 8rem;
-    }
-
+    
     .register-invitation-title{
         margin: auto;
     }

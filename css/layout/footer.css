@@ -3,7 +3,7 @@
     border-top-left-radius: 6rem;
     border-top-right-radius: 6rem;
     color: var(--clr-white);
-    width: 100%;
+    width: 100vw;
     margin: 2rem 0 0;
     background: var(--clr-main);
 }
