@@ -94,7 +94,8 @@
 
 .cta-app-container{
     display: flex;
-    gap: .5rem;
+    gap: 2rem;
+    
 }
 
 .cta-container {

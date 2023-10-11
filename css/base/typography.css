@@ -56,7 +56,9 @@
 }
 
 @media (max-width: 768.98px) {
-
+    .headerTextContainer{
+        margin: 8rem;
+    }
 
     .register-invitation-title{
         margin: auto;
