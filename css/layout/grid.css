@@ -1,7 +1,7 @@
 .food-container{
     display: grid;
     width: 80vw;
-    height: 60vw;
+    height: 35vw;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1.5rem;
     margin: 2rem;

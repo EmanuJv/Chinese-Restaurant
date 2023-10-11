@@ -2,7 +2,7 @@
     display: grid;
     background-color: rgba(35, 35, 35, 0.71) ;
     width: 50vw;
-    margin: auto;
+    margin: 8rem auto;
     border-radius: 5.625rem;
     overflow: auto;
     text-align: center;
