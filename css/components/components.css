@@ -71,14 +71,18 @@
 
 
 .cart-card{
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     object-fit: cover;
     cursor: pointer;    
     background: url(../../imgs/carrito.png);
     background-size: cover;
     background-position: center;
     border: none;
+}
+
+.bg-cart:hover{
+    background-color:#b0a5a5;
 }
 /**/
 
