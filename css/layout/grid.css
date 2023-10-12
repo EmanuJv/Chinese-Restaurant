@@ -1,11 +1,10 @@
 .food-container{
     display: grid;
     width: 80vw;
-    height: 35vw;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
-    margin: 2rem;
-    align-content: center;
+    gap: .5rem;
+    justify-content: center;
+    justify-items: center;
 }
 
 .sectionTwoContainer{
@@ -19,17 +18,8 @@
 
 
 
-.card{
-    display: grid;
-    text-align: center;
-    margin: auto;
-    justify-content: center;
-    position: relative;
-    align-items: center;
-    height: fit-content;
-}
-
 .card section {
+    display: grid;
     position: absolute;
     align-items: center;
     justify-content: center;
@@ -116,11 +106,13 @@
 }
 
 .recipes-container{
-    text-align: center;
+    display: flex;
+    align-content: center;
     background-color: #C0C0C0;
     border-radius: 10rem;
-    overflow: auto;
     width: 100vw;
+    height: 100vw;
+    flex-direction: column;
 }
 
 .rice-container{
@@ -132,7 +124,6 @@
 
 
 @media (max-width: 768px) {
-
 
   
     .register-invitation-content{
