@@ -8,8 +8,9 @@
     display: grid;
     width: 80vw;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 7rem;    
-    
+    gap: 7rem;  
+    margin: auto;
+    padding: 2rem;  
 }
 
 .sectionTwoContainer{
@@ -27,8 +28,6 @@
     background: linear-gradient(to bottom, #D81616 15%, #DCDCDC 0%);
     padding: 2rem 0.1rem ;
     border-radius: 0 0 60px 60px;
-    width: 23rem;
-    height: 29rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
