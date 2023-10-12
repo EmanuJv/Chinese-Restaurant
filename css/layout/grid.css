@@ -1,10 +1,15 @@
+.recipes-container{
+    text-align: center;
+    background-color: #C0C0C0;
+    width: 100vw;
+}
+
 .food-container{
     display: grid;
     width: 80vw;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: .5rem;
-    justify-content: center;
-    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 7rem;    
+    
 }
 
 .sectionTwoContainer{
@@ -17,36 +22,8 @@
 }
 
 
-
-.card section {
+.card{
     display: grid;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    backface-visibility: hidden;
-    /*transition: 1s;*/
-}
-
-.card .recipeFront{
-    transform: perspective(500px) rotateY(0deg);
-}
-
-.card:hover .recipeFront{
-    transform: perspective(500px) rotateY(180deg);
-}
-
-.card .recipeBack{
-    transform: perspective(500px) rotateY(180deg);
-}
-
-.card:hover .recipeBack{
-    transform: perspective(500px) rotateY(360deg);
-}
-
-
-
-.recipeFront{
-    display: flex;
     background: linear-gradient(to bottom, #D81616 15%, #DCDCDC 0%);
     padding: 2rem 0.1rem ;
     border-radius: 0 0 60px 60px;
@@ -56,16 +33,6 @@
     text-align: center;
 }
 
-.recipeBack{
-    display: grid;
-    background: linear-gradient(to bottom, #D81616 15%, #DCDCDC 0%);
-    padding: 2rem 0.1rem ;
-    border-radius: 0 0 60px 60px;
-    width: 23rem;
-    height: 29rem;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-
-}
 
 .register-invitation-cta{
     display: grid;
@@ -105,15 +72,7 @@
     margin-bottom: 5rem;
 }
 
-.recipes-container{
-    display: flex;
-    align-content: center;
-    background-color: #C0C0C0;
-    border-radius: 10rem;
-    width: 100vw;
-    height: 100vw;
-    flex-direction: column;
-}
+
 
 .rice-container{
     display: grid;
@@ -121,11 +80,14 @@
     padding-bottom: 9rem;
 }
 
+@media (max-width: 1294px){
+       .register-invitation-cta{
+        padding: 1rem;
+        width: 90vw;
+    }
+}
 
-
-@media (max-width: 768px) {
-
-  
+@media (max-width: 767px) { 
     .register-invitation-content{
         margin: 0 1rem 2rem;
         text-align: center;
@@ -135,9 +97,8 @@
         gap: 3rem;
     }
 
-    .register-invitation-cta{
-        width: 50%;
-    }
+
+
 
 }
 
