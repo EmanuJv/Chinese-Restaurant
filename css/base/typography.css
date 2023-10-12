@@ -42,6 +42,12 @@
     margin: 0;
     color: white;
 }
+.register-welcome{
+    margin: 2rem auto;
+    color: var(--clr-white);
+    font-family: var(--ff-main);
+    font-size: var(--fs-xl);
+}
 
 @media (max-width: 768.98px) {
     
