@@ -45,7 +45,6 @@
 .recipe-thumb{
     display: flex;
     flex-direction: column;
-    position: relative;
     padding: 0 1rem 3rem;
 }
 
@@ -55,7 +54,7 @@
     display: block;
     width: 100%;
     border-radius: 1rem;
-    margin: 5rem auto;
+    margin: 4rem auto 2.5rem;
     height: 18rem;
 }
 

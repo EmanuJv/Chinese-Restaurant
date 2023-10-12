@@ -36,7 +36,6 @@
 .card{
     display: grid;
     background: #DCDCDC;
-
     border-radius: 0 0 60px 60px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     text-align: center;
