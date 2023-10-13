@@ -102,7 +102,41 @@
     background-color: var(--clr-main);
     color: var(--clr-white);  
 }
+.btn-login{
+    text-align: center;
+    background: var(--clr-black);
+    box-shadow: 5px 5px 10px rgba(0, 0.5, 0.5, 0.5);
+    color: var(--clr-white);
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 3rem;
+    border-radius: 37px;
+    transition: background-color 0.3s;
+    cursor: pointer; 
+    width: fit-content; 
+    margin: auto;
+}
 
+.btn-login:hover{
+    background-color: var(--clr-main);
+    color: var(--clr-white);  
+}
+.link-register{
+    margin: auto;
+    color: var(--clr-gray-txt);
+
+}
+.link-register:hover{
+    color: var(--clr-main);
+}
+.link-login{
+    margin: auto;
+    color: var(--clr-gray-txt);
+
+}
+.link-login:hover{
+    color: var(--clr-main);
+}
 /**/
 
 
