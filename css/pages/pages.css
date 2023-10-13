@@ -1,6 +1,6 @@
-.background{
+.backgroundRegister{
     background: url(../../imgs/restaurante-chino-lugo.jpg);
     width: 100vw;
     background-size: cover;
-    
+    background-position: center;
 }
