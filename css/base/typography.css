@@ -46,7 +46,7 @@
     margin: 2rem auto;
     color: var(--clr-white);
     font-family: var(--ff-main);
-    font-size: var(--fs-xl);
+    font-size: 4rem;
 }
 
 @media (max-width: 768.98px) {

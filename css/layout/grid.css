@@ -106,14 +106,14 @@
 
 .register-container{
     display: grid;
-    padding: 4rem;
+    padding: 2.5rem;
     margin: 3rem auto;
-    width: 65vw;
+    width: 70vw;
     border-radius: 4rem;
     background: hsla(0, 0%, 18%, 90%);
     overflow: auto;
     gap: 4rem;
-
+    justify-content: center;
 }
 
 

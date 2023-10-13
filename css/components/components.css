@@ -96,7 +96,6 @@
     cursor: pointer; 
     width: fit-content; 
     margin: auto;
-    width: 15vw;
 }
 
 .btn-register:hover{

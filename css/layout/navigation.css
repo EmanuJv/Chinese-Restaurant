@@ -15,6 +15,7 @@
     display: flex;
     font-size: 2rem;
     margin-left: 1rem;
+    color: var(--clr-white);
 }
 
 .nav-list{
