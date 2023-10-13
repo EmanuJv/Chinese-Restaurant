@@ -18,6 +18,10 @@
     border-radius: 37px;
 }
 
+.go-to-menu-btn:hover{
+    background-color: var(--clr-main);
+}
+
 .register-invitation-btn{
     text-align: center;
     background: #DCDCDC;
@@ -70,19 +74,32 @@
 
 
 .cart-card{
-    width: 2rem;
-    height: 2rem;
-    object-fit: cover;
+    width: 4rem;
+    height: 4rem;
     cursor: pointer;    
-    background: url(../../imgs/carrito.png);
+    background: url(../../imgs/icons/carrito.svg);
     background-size: cover;
     background-position: center;
     border: none;
 }
 
+
+.bg-cart{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    border-radius: 1rem;
+    transition: background-color 0.3s;
+    box-shadow: 5px 5px 10px rgba(0, 0.5, 0.5, 0.5);
+    width: 2rem;
+    height: 1rem;
+    padding: 1rem;
+}
+
 .bg-cart:hover{
     background-color:#b0a5a5;
 }
+
+
 .btn-register{
     text-align: center;
     background: var(--clr-black);

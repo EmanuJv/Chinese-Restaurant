@@ -29,11 +29,15 @@
 }
 
 .recipe-name{
-    color: black;
+    color: var(--clr-white);
     font-weight: bold;
     margin: auto;
     font-size: 25px;
     text-shadow:  1px 1.5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.recipe-name:hover{
+    color: var(--clr-gray-txt);
 }
 
 .register-invitation-title{
