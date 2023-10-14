@@ -126,13 +126,13 @@
     height: 50vh;
     border-radius: 2rem;
     background: hsla(0, 0%, 18%, 90%);
-    overflow: auto;
-    gap: 4rem;
 }
 .orderBtns-container{
    display: flex;
-   width: 30vw;
-   margin: auto; 
+   width: fit-content;
+   margin: 2rem auto;
+   gap: 4rem;
+   padding: 1rem;
 }
 
 
