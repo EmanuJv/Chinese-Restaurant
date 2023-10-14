@@ -298,13 +298,13 @@
     border-top: 1px solid #dbdbdb;
     border-bottom: 1px solid #dbdbdb;
 }
-.content-modal .btn-cerrar{
+.content-modal .btn-close{
     width: 100%;
     margin-top: 15px;
     display: flex;
     justify-content: flex-end;
 }
-.content-modal .btn-cerrar label{
+.content-modal .btn-close label{
     padding: 5px 8px;
     background-color: var(--clr-main);
     color: #fff;
@@ -312,10 +312,10 @@
     cursor: pointer;
     transition: all 300ms ease;
 }
-.content-modal .btn-cerrar label:hover{
+.content-modal .btn-close label:hover{
      background-color: #ad1212;;
 }
-.cerrar-modal{
+.close-modal{
     width:100%;
     height: 100vh;
     position: absolute;
