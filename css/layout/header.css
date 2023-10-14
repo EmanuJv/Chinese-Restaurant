@@ -1,7 +1,7 @@
 .hero-container{
-    background: url(../../imgs/header.jpg);
+    background: url(../../imgs/headerHomepage.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: initial;
     border-bottom-left-radius: 6rem;
     border-bottom-right-radius: 6rem;
     color: var(--clr-white);
@@ -9,6 +9,7 @@
     text-align: center;
     width: 100vw;
     overflow: auto;
+    
 }
 
 

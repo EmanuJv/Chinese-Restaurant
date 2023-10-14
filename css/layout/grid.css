@@ -111,6 +111,14 @@
     justify-content: center;
 }
 
+.info-modal{
+    margin: 1rem auto;
+    display: flex;
+    gap: 4rem;
+}
+
+
+
 
 @media (max-width: 1294px){
        .register-invitation-cta{
@@ -129,6 +137,9 @@
         gap: 3rem;
     }
 
+    .superior-info-modal{
+        margin: 2rem auto;
+    }
 
 
 
