@@ -1,7 +1,6 @@
 :root{
     /* fonts */
-    --ff-main: 'Archivo', sans-serif;
-    --ff-secondary: 'Roboto', sans-serif;
+    font-family: 'Exo', sans-serif;
 
     /*Font Size*/
 
