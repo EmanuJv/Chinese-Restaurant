@@ -116,6 +116,26 @@
     display: flex;
     gap: 4rem;
 }
+.order-container{
+    margin: 6rem auto ;
+   color: var(--clr-white);
+    font-size: var(--fs-md);
+    display: grid;
+    padding: 2.5rem;
+    width: 50vw;
+    height: 50vh;
+    border-radius: 2rem;
+    background: hsla(0, 0%, 18%, 90%);
+    overflow: auto;
+    gap: 4rem;
+}
+.orderBtns-container{
+   display: flex;
+   width: 30vw;
+   margin: auto; 
+}
+
+
 
 
 

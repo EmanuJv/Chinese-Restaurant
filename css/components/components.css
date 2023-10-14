@@ -190,6 +190,12 @@
     cursor: pointer;    
     border: none;
 }
+.btn-cancelOrder{
+
+}
+.btn-payOut{
+    
+}
 
 
 @media (max-width: 768.98px) {
