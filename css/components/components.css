@@ -190,11 +190,13 @@
     cursor: pointer;    
     border: none;
 }
-.btn-cancelOrder{
-
+.yourOrder-txt{
+    display: grid;
+    margin: 2rem;
 }
-.btn-payOut{
-    
+.up-container{
+    display: flex;
+    flex-direction: column;
 }
 
 

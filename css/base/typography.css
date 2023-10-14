@@ -58,6 +58,25 @@
     font-family: var(--ff-main);
     font-size: 4rem;
 }
+.history-title{
+    display: grid;
+    margin: 1rem auto;
+    color: var(--clr-white);
+    font-family: var(--ff-main);
+    font-size: 2rem;
+    justify-content: center;
+   
+}
+.top-title{
+    display: grid;
+    margin: 1rem auto;
+    color: var(--clr-white);
+    font-family: var(--ff-main);
+    font-size: 3rem;
+    align-items: end;
+    justify-items: center;
+   
+}
 
 @media (max-width: 768.98px) {
     
