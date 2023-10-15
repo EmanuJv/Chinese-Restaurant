@@ -1,0 +1,67 @@
+.rice-image{
+    width: 13.688rem;
+    height: 11.125rem;
+    margin: auto;
+}
+
+.register-invitation-image{
+    display: block;
+    width: 50%;
+    margin-left: 50%;
+    border-radius: 0 4.5rem 4.5rem 0;
+}
+
+.recipe-image{
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    width: 100%;
+    border-radius: 1rem;
+    margin: 4rem auto 2.5rem;
+    height: 18rem;
+}
+
+.instagram{
+    height: 55.89px;
+    width: 59px;
+}
+
+.facebook{
+    height: 55.89px;
+    width: 59px;
+}
+
+.twitter{
+    height: 55.89px;
+    width: 59px;
+}
+
+.cart-card{
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;    
+    background: url(../../imgs/icons/carrito.svg);
+    background-size: cover;
+    background-position: center;
+    border: none;
+}
+
+.icon-persons{
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;    
+    border: none;
+}
+
+@media (max-width: 768.98px) {
+
+
+    .register-invitation-image{
+        margin: auto;
+        text-align: center;
+        border-radius: 0;
+    }
+
+
+}
+
