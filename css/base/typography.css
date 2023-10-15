@@ -83,6 +83,12 @@
     color: var(--clr-white);
 }
 
+.menuTxtCategories{
+    font-size: 4rem;
+    text-decoration-line: overline;
+    text-shadow:  1px 1.5px 0px rgba(0, 0, 0, 0.5);
+}
+
 @media (max-width: 768.98px) {
     
     .register-invitation-title{
