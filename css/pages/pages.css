@@ -43,7 +43,7 @@
     font-weight: 400;
     align-self: stretch;
 }
-.details>button{
+.details>a{
     background-color: #cb202d;
     border: none;
     color: #ffffff;
@@ -52,4 +52,7 @@
     border-radius: 5px;
     width: 180px;
     cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    padding: 1rem;
 }
