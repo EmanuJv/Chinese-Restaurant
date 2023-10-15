@@ -73,6 +73,16 @@
     font-size: 3rem;
 }
 
+.menuText{
+    font-size: var(--fs-xl);
+    margin: 5rem auto;
+}
+
+.phras-text{
+    font-size: var(--fs-md);
+    margin: auto;
+}
+
 @media (max-width: 768.98px) {
     
     .register-invitation-title{

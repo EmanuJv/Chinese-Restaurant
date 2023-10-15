@@ -4,6 +4,7 @@
     margin: auto;
 }
 
+
 .register-invitation-image{
     display: block;
     width: 50%;
@@ -52,6 +53,31 @@
     cursor: pointer;    
     border: none;
 }
+
+.appetizers{
+    width: 24rem;
+    display: grid;
+    margin:  5rem auto;
+}
+
+.mainDishes{
+    width: 24rem;
+    display: grid;
+    margin:  5rem auto;
+}
+
+.desserts{
+    width: 24rem;
+    display: grid;
+    margin:  5rem auto;
+}
+
+.beverages{
+    width: 24rem;
+    display: grid;
+    margin:  5rem auto;
+}
+
 
 @media (max-width: 768.98px) {
 
