@@ -75,12 +75,12 @@
 
 .menuText{
     font-size: var(--fs-xl);
-    margin: 5rem auto;
+    color: var(--clr-white);
 }
 
 .phras-text{
     font-size: var(--fs-md);
-    margin: auto;
+    color: var(--clr-white);
 }
 
 @media (max-width: 768.98px) {

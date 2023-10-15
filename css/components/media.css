@@ -21,6 +21,7 @@
     margin: 1rem auto 1rem;
 }
 
+
 .instagram{
     height: 55.89px;
     width: 59px;
@@ -53,29 +54,12 @@
     border: none;
 }
 
-.appetizers{
+.menuIcons{
     width: 24rem;
     display: grid;
-    margin:  5rem auto;
+    
 }
 
-.mainDishes{
-    width: 24rem;
-    display: grid;
-    margin:  5rem auto;
-}
-
-.desserts{
-    width: 24rem;
-    display: grid;
-    margin:  5rem auto;
-}
-
-.beverages{
-    width: 24rem;
-    display: grid;
-    margin:  5rem auto;
-}
 
 
 @media (max-width: 768.98px) {

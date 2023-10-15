@@ -98,7 +98,10 @@
     margin-bottom: 16rem;
 }
 
-
+.cta-menu-icon{
+    display: flex;
+    justify-content: center;
+}
 
 .rice-container{
     display: grid;
@@ -106,9 +109,12 @@
     padding: 2.5rem;
 }
 
-.menu-icon-container{
+.menu-bg-container{
+    padding: 2rem;
     display: grid;
     text-align: center;
+    background-image: url(../../imgs/bgMenuIcon.jpg);
+    background-size: cover;
 }
 
 .top-card{
@@ -207,10 +213,6 @@
 
 
 
-
-
-
-
 @media (max-width: 1294px){
        .register-invitation-cta{
         padding: 1rem;
@@ -228,9 +230,6 @@
         gap: 3rem;
     }
 
-    .superior-info-modal{
-        margin: 2rem auto;
-    }
 
 }
 
