@@ -190,6 +190,21 @@
     flex-direction: column;
 }
 
+.menu{
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(350px,1fr));
+    grid-gap: 20px 40px;
+}
+
+.food-items{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    margin: 2rem 20px;
+}
+
 
 
 
