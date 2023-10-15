@@ -87,6 +87,9 @@
         border-radius: 0;
     }
 
+    .recipe-image{
+        margin: 4rem auto 0rem;
+    }
 
 }
 
