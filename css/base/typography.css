@@ -88,6 +88,10 @@
     text-decoration-line: overline;
     text-shadow:  1px 1.5px 0px rgba(0, 0, 0, 0.5);
 }
+.priceInfo{
+    font-size: 4rem;
+
+}
 
 @media (max-width: 768.98px) {
     

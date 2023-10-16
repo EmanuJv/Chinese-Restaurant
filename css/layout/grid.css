@@ -186,6 +186,9 @@
     background-size: cover;
     background-position: center;
 }
+.backgroundDishInfo{
+    background: #2D2D2D;
+}
 
 .yourOrder-txt{
     display: grid;
@@ -211,6 +214,35 @@
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
     margin: 2rem 20px;
 }
+.dishInfo-container{
+    display: grid;
+    margin: 5rem auto;
+    justify-items: start;
+    color: var(--clr-white);
+   
+
+}
+.infoImage-cta{
+    display: flex;
+    gap: 8rem;
+    max-width: 150ch;
+}
+.infoPrice-cta{
+    display: flex;
+    font-size: 3rem;
+    margin: 2rem 3rem;
+    gap: 4rem;
+    
+}
+.dishInfoDetails-cta{
+    display: flex;
+    margin: 2rem;
+    gap: 3rem;
+}
+.infoImage{
+    width: 40vw;
+}
+
 
 
 
@@ -230,7 +262,11 @@
         order: 2;
         gap: 3rem;
     }
-
+    .infoImage-cta{
+        display: grid;
+        max-width: 200ch;
+        padding: 3rem;
+    }
 
 }
 
