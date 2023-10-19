@@ -76,6 +76,8 @@
     object-fit: cover;
     background-color: #000000; 
     border-radius: 4.5rem;
+    box-shadow: 0 0 15px rgba(0,0,0,0.8);
+    padding: 0.5rem;
 }
 
 .register-invitation-content{
@@ -182,7 +184,7 @@
 }
 .backgroundRegister{
     background: url(../../imgs/restaurante-chino-lugo.jpg);
-    width: 100%;
+    width: 100vw;
     background-size: cover;
     background-position: center;
 }
@@ -246,6 +248,21 @@
     gap: 3rem;
 }
 
+.map-container{
+    display: grid;
+    width: 75vw;
+    margin: 1rem auto 5rem;
+    text-align: center;
+    background-color: var(--clr-black);
+    padding: 1rem;
+    color: var(--clr-white);
+    border-radius: 4rem;
+    box-shadow: 0 0 15px rgba(0,0,0,0.8);
+}
+
+.map-container iframe{
+    border-radius: 0rem 0rem 4rem 4rem;
+}
 
 
 
