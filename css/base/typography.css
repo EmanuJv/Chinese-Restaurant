@@ -92,6 +92,11 @@
     font-size: 4rem;
 
 }
+.menu-decoration-text{
+    display: grid;
+    max-width: 80ch;
+    text-align: center;
+}
 
 @media (max-width: 768.98px) {
     

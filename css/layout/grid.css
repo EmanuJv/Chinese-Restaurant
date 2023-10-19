@@ -263,6 +263,14 @@
 .map-container iframe{
     border-radius: 0rem 0rem 4rem 4rem;
 }
+.img-animated{
+    width: 8vw;
+}
+.img-animated-container{
+    display: grid;
+    justify-items: center;
+    padding: 6rem;
+}
 
 
 
@@ -278,6 +286,9 @@
 
     .infoImage{
         width: 60vw;
+    }
+    .img-animated{
+        width: 18vw;
     }
   
 }
