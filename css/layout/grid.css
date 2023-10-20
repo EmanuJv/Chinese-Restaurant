@@ -1,4 +1,4 @@
-/* Estilos para el contenedor del encabezado de texto */
+/* Styles for the header text container */
 .headerTextContainer {
     display: grid; 
     background-color: rgba(91, 88, 88, 0.71); 
@@ -10,7 +10,7 @@
     padding: 1.5rem;
 }
 
-/* Estilos para elementos con la clase .sectionTwoCard */
+/* Styles for elements with the class .sectionTwoCard */
 .sectionTwoCard {
     text-align: center; 
     display: grid;
@@ -19,7 +19,7 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-/* Estilos para elementos con la clase .sectionTwoActivity */
+/* Styles for elements with the class .sectionTwoActivity */
 .sectionTwoActivity {
     object-fit: cover; 
     display: grid; 
@@ -28,7 +28,7 @@
     border-radius: 4.25rem 4.25rem 4.25rem 4.25rem; 
 }
 
-/* Estilos para el contenedor de recetas */
+/* Styles for the recipes container */
 .recipes-container {
     text-align: center; 
     background-color: #C0C0C0; 
@@ -36,14 +36,14 @@
     border-radius: 3rem; 
 }
 
-/* Estilos para elementos con la clase .recipe-thumb */
+/* Styles for elements with the class .recipe-thumb */
 .recipe-thumb {
     display: flex;
     flex-direction: column; 
     padding: 0 1rem 3rem;
 }
 
-/* Estilos para el contenedor de alimentos */
+/* Styles for the food container */
 .food-container {
     display: grid; 
     width: 80vw; 
@@ -53,7 +53,7 @@
     padding: 2rem; 
 }
 
-/* Estilos para el contenedor de la sección dos */
+/* Styles for the section two container */
 .sectionTwoContainer {
     display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
@@ -63,7 +63,7 @@
     margin: 10rem auto 4rem; 
 }
 
-/* Estilos para elementos con la clase .card */
+/* Styles for elements with the class .card */
 .card {
     display: grid; 
     background: var(--clr-black); 
@@ -72,7 +72,7 @@
     text-align: center; 
 }
 
-/* Estilos para el contenedor de invitación de registro (cta) */
+/* Styles for the register invitation CTA container */
 .register-invitation-cta {
     display: grid;
     width: 70vw; 
@@ -87,7 +87,7 @@
     padding: 0.5rem; 
 }
 
-/* Estilos para el contenido de la invitación de registro (cta) */
+/* Styles for the content of the register invitation CTA */
 .register-invitation-content {
     display: grid; 
     gap: 2rem;
@@ -95,13 +95,13 @@
     margin-left: 6rem;
 }
 
-/* Estilos para el contenedor de la aplicación cta */
+/* Styles for the CTA app container */
 .cta-app-container {
     display: flex; 
     gap: 2rem; 
 }
 
-/* Estilos para el contenedor de cta */
+/* Styles for the CTA container */
 .cta-container {
     display: flex; 
     align-items: center; 
@@ -109,21 +109,21 @@
     margin-bottom: 16rem; 
 }
 
-/* Estilos para el icono del menú cta */
+/* Styles for the CTA menu icon */
 .cta-menu-icon {
     display: flex; 
     justify-content: center; 
     margin: 8rem 0 0 0;
 }
 
-/* Estilos para el contenedor de arroz */
+/* Styles for the rice container */
 .rice-container {
     display: grid; 
     text-align: center;
     padding: 2.5rem; 
 }
 
-/* Estilos para el contenedor de fondo del menú */
+/* Styles for the menu background container */
 .menu-bg-container {
     padding: 2rem; 
     display: grid; 
@@ -132,7 +132,7 @@
     background-size: cover;
 }
 
-/* Estilos para el contenedor de la tarjeta superior */
+/* Styles for the top card container */
 .top-card {
     display: flex;
     background: var(--clr-main); 
@@ -141,7 +141,7 @@
     padding: 1rem 1rem; 
 }
 
-/* Estilos para el contenedor de registro */
+/* Styles for the register container */
 .register-container {
     display: grid; 
     padding: 2.5rem; 
@@ -154,21 +154,21 @@
     justify-content: center; 
 }
 
-/* Estilos para el contenedor de información modal */
+/* Styles for the information modal container */
 .info-modal {
     margin: 1rem auto; 
     display: flex;
     gap: 4rem; 
 }
 
-/* Estilos para el contenedor de cta, precio y pedido ahora */
+/* Styles for the CTA, price, and order now container */
 .cta-price-orderNow {
     display: flex; 
-    justify-content: space-between; 
+    justify-content: space between; 
     padding: 1rem;
 }
 
-/* Estilos para el contenedor de pedido */
+/* Styles for the order container */
 .order-container {
     margin: 8rem auto;
     color: var(--clr-white);
@@ -180,7 +180,7 @@
     background: hsla(0, 0%, 18%, 90%);
 }
 
-/* Estilos para el contenedor de botones de pedido */
+/* Styles for the order buttons container */
 .orderBtns-container {
     display: flex;
     width: fit-content; 
@@ -189,7 +189,7 @@
     padding: 1rem; 
 }
 
-/* Estilos para el contenedor de historial */
+/* Styles for the history container */
 .history-container {
     margin: 3rem auto;
     color: var(--clr-white); 
@@ -202,7 +202,7 @@
     background: hsla(0, 0%, 18%, 90%); 
 }
 
-/* Estilos para el fondo de registro */
+/* Styles for the register background */
 .backgroundRegister {
     background: url(../../imgs/restaurante-chino-lugo.jpg); 
     width: 100vw; 
@@ -210,26 +210,26 @@
     background-position: center; 
 }
 
-/* Estilos para el fondo de información del plato */
+/* Styles for the dish information background */
 .backgroundDishInfo {
     background: url(../../imgs/dishBG.jpg);
     background-size: cover; 
     background-position: left; 
 }
 
-/* Estilos para el texto "Tu pedido" */
+/* Styles for the "Your Order" text */
 .yourOrder-txt {
     display: grid; 
     margin: 2rem; 
 }
 
-/* Estilos para el contenedor de arriba del carrito */
+/* Styles for the up cart CTA */
 .cta-up-cart {
     display: flex;
     flex-direction: column; 
 }
 
-/* Estilos para el menú de alimentos */
+/* Styles for the food menu */
 .menu {
     padding: 0; 
     display: grid; 
@@ -237,7 +237,7 @@
     grid-gap: 20px 40px;
 }
 
-/* Estilos para elementos con la clase .food-items */
+/* Styles for elements with the class .food-items */
 .food-items {
     display: grid; 
     grid-template-rows: auto 1fr;
@@ -246,7 +246,7 @@
     margin: 2rem 20px; 
 }
 
-/* Estilos para el contenedor de información del plato */
+/* Styles for the dish information container */
 .dishInfo-container {
     display: grid; 
     color: var(--clr-white); 
@@ -254,7 +254,7 @@
     justify-content: center; 
 }
 
-/* Estilos para el contenedor de imágenes e información del plato */
+/* Styles for the container of dish information images */
 .infoImageDish {
     display: flex; 
     gap: 1rem; 
@@ -262,12 +262,12 @@
     align-items: center; 
 }
 
-/* Estilos para imágenes en el contenedor de información del plato */
+/* Styles for images in the dish information container */
 .infoImageDish img {
     border-radius: 1rem;
 }
 
-/* Estilos para el precio en el contenedor de información del plato */
+/* Styles for the price in the dish information container */
 .infoPrice {
     margin: 3rem 0; 
     display: flex; 
@@ -275,13 +275,13 @@
     gap: 1rem;
 }
 
-/* Estilos para detalles en el contenedor de información del plato */
+/* Styles for details in the dish information container */
 .dishInfoDetails {
     display: flex; 
     gap: 3rem; 
 }
 
-/* Estilos para el contenedor de mapas */
+/* Styles for the map container */
 .map-container {
     display: grid; 
     width: 75vw;
@@ -294,24 +294,24 @@
     box-shadow: 0 0 15px rgba(0,0,0,0.8); 
 }
 
-/* Estilos para iframes dentro del contenedor de mapas */
+/* Styles for iframes within the map container */
 .map-container iframe {
     border-radius: 0rem 0rem 4rem 4rem; 
 }
 
-/* Estilos para imágenes animadas */
+/* Styles for animated images */
 .img-animated {
     width: 8vw; 
 }
 
-/* Estilos para el contenedor de imágenes animadas */
+/* Styles for the container of animated images */
 .img-animated-container {
     display: grid; 
     justify-items: center; 
     padding: 6rem; 
 }
 
-/* Estilos para elementos dentro del contenedor de imágenes animadas en pantallas pequeñas */
+/* Styles for elements within the container of animated images on small screens */
 @media (max-width: 767px) { 
     .register-invitation-content {
         margin: 0 1rem 2rem; 

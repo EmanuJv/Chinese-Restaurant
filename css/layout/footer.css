@@ -1,4 +1,4 @@
-/* Estilos para el contenedor del pie de página */
+/* Styles for the footer container */
 .footer-container {
     display: grid; 
     border-top-left-radius: 6rem; 
@@ -9,7 +9,7 @@
     background: var(--clr-main); 
 }
 
-/* Estilos para el contenido del pie de página */
+/* Styles for the footer content */
 .footer-content {
     display: grid; 
     width: 80vw; 
@@ -18,7 +18,7 @@
     gap: 1.5rem; 
 }
 
-/* Estilos para los enlaces del pie de página */
+/* Styles for the footer links */
 .footer-links {
     display: grid; 
     margin: .05rem auto; 
@@ -26,32 +26,32 @@
     gap: 1rem; 
 }
 
-/* Estilos para la lista de navegación en el pie de página */
+/* Styles for the navigation list in the footer */
 .nav-footer-list {
     padding: 0; 
     list-style-type: none; 
 }
 
-/* Estilos para los enlaces de navegación en el pie de página */
+/* Styles for the navigation links in the footer */
 .nav-footer-link {
     color: var(--clr-white); 
     text-decoration: none;
     font-size: var(--fs-md); 
 }
 
-/* Estilos para el texto legal en el pie de página */
+/* Styles for the legal text in the footer */
 .footer-legal {
     text-align: center; 
     font-size: var(--fs-md);
 }
 
-/* Estilos para la sección de descarga de la aplicación en el pie de página */
+/* Styles for the app download section in the footer */
 .download-app {
     width: 80vw; 
     margin: auto; 
 }
 
-/* Estilos para elementos con la clase .footer-decoration */
+/* Styles for elements with the class .footer-decoration */
 .footer-decoration {
     text-decoration: overline; 
 }

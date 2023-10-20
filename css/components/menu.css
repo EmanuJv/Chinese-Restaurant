@@ -1,11 +1,11 @@
-/* Estilos para imágenes dentro de elementos con la clase .food-items */
+/* Styles for images within elements with the class .food-items */
 .food-items img {
     position: relative; 
     width: 100%; 
     border-radius: 15px 15px 0 0;
 }
 
-/* Estilos para elementos con la clase .details */
+/* Styles for elements with the class .details */
 .details {
     padding: 20px 10px; 
     display: grid; 
@@ -13,24 +13,24 @@
     grid-row-gap: 15px; 
 }
 
-/* Estilos para elementos con la clase .details-sub */
+/* Styles for elements with the class .details-sub */
 .details-sub {
     display: grid;
     grid-template-columns: auto auto; 
 }
 
-/* Estilos para elementos h5 dentro de .details-sub */
+/* Styles for h5 elements within .details-sub */
 .details-sub > h5 {
     font-weight: 600; 
     font-size: 18px; 
 }
 
-/* Estilos para elementos con la clase .price */
+/* Styles for elements with the class .price */
 .price {
     text-align: right; 
 }
 
-/* Estilos para párrafos dentro de elementos con la clase .details */
+/* Styles for paragraphs within elements with the class .details */
 .details > p {
     color: #6f6f6f; 
     font-size: 15px;
@@ -39,7 +39,7 @@
     align-self: stretch; 
 }
 
-/* Estilos para enlaces dentro de elementos con la clase .details */
+/* Styles for links within elements with the class .details */
 .details > a {
     background-color: #cb202d; 
     border: none; 

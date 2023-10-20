@@ -1,18 +1,18 @@
-/* Estilos para la barra de navegación en pantallas grandes */
+/* Styles for the top navigation bar on large screens */
 .top-nav {
     display: flex;
     align-items: center;
     background-color: var(--clr-main);
 }
 
-/* Estilos para el logotipo */
+/* Styles for the logo */
 .logo {
     width: 4rem;
     height: 3.5rem;
     margin-left: 3rem;
 }
 
-/* Estilos para el título de navegación */
+/* Styles for the navigation title */
 .nav-title {
     display: flex;
     font-size: 2rem;
@@ -20,26 +20,26 @@
     color: var(--clr-white);
 }
 
-/* Estilos para la lista de navegación en pantallas grandes */
+/* Styles for the navigation list on large screens */
 .nav-list {
     display: flex;
     gap: 3rem;
     list-style-type: none;
 }
 
-/* Estilos para los enlaces de la lista de navegación */
+/* Styles for the links in the navigation list */
 .nav-list-link {
     color: var(--clr-white);
     text-decoration: none;
     font-size: var(--fs-md);
 }
 
-/* Estilos para el botón de menú en dispositivos móviles */
+/* Styles for the mobile menu button on mobile devices */
 .mobile-cb {
     display: none;
 }
 
-/* Estilos para el menú de navegación en dispositivos móviles (inicialmente oculto) */
+/* Styles for the mobile navigation menu (initially hidden) */
 @media (max-width: 768.98px) {
     .nav-list {
         display: grid;
@@ -59,7 +59,7 @@
         padding-right: 1rem;
     }
 
-    /* Estilos para el botón de menú móvil */
+    /* Styles for the mobile menu button */
     .mobile-btn {
         position: fixed;
         top: 4rem;
@@ -69,7 +69,7 @@
         z-index: 3;
     }
 
-    /* Estilos para las barras del botón de menú móvil */
+    /* Styles for the bars in the mobile menu button */
     .mobile-btn > span,
     .mobile-btn > span::before,
     .mobile-btn > span::after {
@@ -91,7 +91,7 @@
         top: 0.5rem;
     }
 
-    /* Estilos para la casilla de verificación móvil (inicialmente oculta) */
+    /* Styles for the mobile checkbox (initially hidden) */
     .mobile-cb {
         position: fixed;
         top: 3rem;
@@ -103,7 +103,7 @@
         display: block;
     }
 
-    /* Estilos para las barras del botón de menú móvil cuando la casilla está marcada (menú abierto) */
+    /* Styles for the bars in the mobile menu button when the checkbox is checked (menu open) */
     .mobile-cb:checked + .mobile-btn > span {
         transform: rotate(45deg);
     }
@@ -118,7 +118,7 @@
         transform: rotate(90deg);
     }
 
-    /* Estilos para el menú de navegación en dispositivos móviles cuando la casilla está marcada (menú abierto) */
+    /* Styles for the mobile navigation menu when the checkbox is checked (menu open) */
     .mobile-cb:checked ~ .nav-list {
         right: 0;
     }

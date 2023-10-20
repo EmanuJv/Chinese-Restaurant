@@ -1,4 +1,4 @@
-/* Estilos para el formulario de registro */
+/* Styles for the registration form */
 .register-form {
     border-radius: 1rem;
     display: flex; 
@@ -8,14 +8,14 @@
     gap: 1rem;
 }
 
-/* Estilos para las etiquetas del formulario de registro */
+/* Styles for the labels in the registration form */
 .lb-register {
     color: var(--clr-white); 
     font-size: var(--fs-md); 
     width: 6rem; 
 }
 
-/* Estilos para los campos de entrada del formulario de registro */
+/* Styles for the input fields in the registration form */
 .inpt-register {
     height: 2rem; 
     width: 25vw; 
@@ -25,7 +25,7 @@
     flex: 1; 
 }
 
-/* Estilos para el campo de entrada en estado de enfoque (focus) */
+/* Styles for the input field in focus state */
 .inpt-register:focus {
     outline: none; 
 }
