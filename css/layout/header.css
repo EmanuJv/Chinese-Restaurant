@@ -7,7 +7,7 @@
     color: var(--clr-white);
     height: min(45rem, 50rem, 55rem);
     text-align: center;
-    width: 100vw;
+    width: 100%;
 }
 
 @media (max-width: 767px) { 
