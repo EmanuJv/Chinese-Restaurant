@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,26 +7,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.css"> <!-- Enlazar a tu archivo CSS -->
+
+   
 </head>
-
 <body class="backgroundRegister">
+    
 
+   
     <header>
+        <!-- Barra de navegación superior -->
         <nav class="top-nav">
+            <!-- Logotipo y título -->
             <a href="./index.html"><img class="logo" src="./imgs/logoOscuro.png" alt="Shipu Logo"></a>
             <p class="nav-title">Shípǔ</p>
 
-            <!--mobile nav btn (camping extracted)-->
-
+            <!-- Botón de menú para dispositivos móviles (controlado por la casilla de verificación) -->
             <input class="mobile-cb" type="checkbox">
             <label class="mobile-btn">
-                <span>
-
-                </span>
+                <span></span>
             </label>
 
-
+            <!-- Lista de navegación -->
             <ul class="nav-list">
                 <li><a class="nav-list-link" href="./history.html">USER HISTORY</a></li>
                 <li><a class="nav-list-link" href="./menu.html">MENU</a></li>
@@ -35,10 +36,10 @@
                 <li><a class="nav-list-link" href="./register.html">SIGN UP</a></li>
                 <li><a class="nav-list-link" href="./login.html">LOGIN</a></li>
             </ul>
-
-
         </nav>
     </header>
+
+    <!-- Contenido principal -->
     <main>
         <div class="order-container">
             <div class="cta-up-cart">
@@ -46,11 +47,12 @@
                 <p class="yourOrder-txt">Your Order:</p>
             </div>
         </div>
+
+        <!-- Botones para cancelar o pagar el pedido -->
         <div class="orderBtns-container">
             <a href="./index.html" class="btn-order-modal btn">Cancel Order</a>
             <a href="#" class="btn-order-modal btn">PayOut</a>
         </div>
     </main>
 </body>
-
 </html>

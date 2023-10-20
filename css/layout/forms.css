@@ -1,25 +1,31 @@
-.register-form{
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: auto;
-    gap: 1rem;
-}
-.lb-register{
-    color: var(--clr-white);
-    font-size: var(--fs-md);
-    width: 6rem;
+/* Estilos para el formulario de registro */
+.register-form {
+    border-radius: 1rem; /* Borde redondeado de 1rem */
+    display: flex; /* Establece el elemento como una caja flexible */
+    flex-direction: row; /* Dirección de los elementos secundarios en fila */
+    align-items: center; /* Alinea los elementos secundarios verticalmente en el centro */
+    margin: auto; /* Centra el elemento horizontalmente */
+    gap: 1rem; /* Espacio entre elementos de 1rem */
 }
 
-.inpt-register{
-    height: 2rem;
-    width: 25vw;
-    border-radius: .5rem;
-    border: none;
-    background: #D9D9D9 ;
-    flex: 1;
+/* Estilos para las etiquetas del formulario de registro */
+.lb-register {
+    color: var(--clr-white); /* Color de texto definido en una variable CSS */
+    font-size: var(--fs-md); /* Tamaño de fuente definido en una variable CSS */
+    width: 6rem; /* Ancho de 6rem */
 }
-.inpt-register:focus{
-    outline: none;
+
+/* Estilos para los campos de entrada del formulario de registro */
+.inpt-register {
+    height: 2rem; /* Altura de 2rem */
+    width: 25vw; /* Ancho del 25% del ancho de la ventana */
+    border-radius: .5rem; /* Borde redondeado de 0.5rem */
+    border: none; /* Sin borde */
+    background: #D9D9D9; /* Color de fondo gris */
+    flex: 1; /* Expansión flexible para ocupar todo el espacio disponible */
+}
+
+/* Estilos para el campo de entrada en estado de enfoque (focus) */
+.inpt-register:focus {
+    outline: none; /* Elimina el contorno (borde de enfoque) */
 }

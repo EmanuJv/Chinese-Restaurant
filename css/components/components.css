@@ -1,20 +1,21 @@
-.link-register{
-    margin: auto;
-    color: var(--clr-gray-txt);
-
-}
-.link-register:hover{
-    color: var(--clr-main);
+/* Estilos para elementos con la clase .link-register */
+.link-register {
+    margin: auto; /* Centra el elemento horizontalmente */
+    color: var(--clr-gray-txt); /* Color de texto definido en una variable CSS */
 }
 
-.link-login{
-    margin: auto;
-    color: var(--clr-gray-txt);
-
-}
-.link-login:hover{
-    color: var(--clr-main);
+/* Estilos para el estado hover de elementos con la clase .link-register */
+.link-register:hover {
+    color: var(--clr-main); /* Cambia el color de texto al pasar el ratón por encima */
 }
 
+/* Estilos para elementos con la clase .link-login */
+.link-login {
+    margin: auto; /* Centra el elemento horizontalmente */
+    color: var(--clr-gray-txt); /* Color de texto definido en una variable CSS */
+}
 
-
+/* Estilos para el estado hover de elementos con la clase .link-login */
+.link-login:hover {
+    color: var(--clr-main); /* Cambia el color de texto al pasar el ratón por encima */
+}

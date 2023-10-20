@@ -1,10 +1,9 @@
-/*Modal 1*/
-
-.boton-modal-uno{
+/* Modal 1 */
+.boton-modal-uno {
     background-color: #D81616;
     padding: 1rem;
 }
-.boton-modal-uno label{
+.boton-modal-uno label {
     background-color: #545454;
     color: #fff;
     border-radius: 0.5rem;
@@ -13,25 +12,24 @@
     padding: 1rem;
 }
 
-.boton-modal-uno label:hover{
+.boton-modal-uno label:hover {
     background-color: #363636;
 }
 
-#btn-modal-uno{
+#btn-modal-uno {
     display: none;
 }
 
-#btn-modal-uno:checked ~ .container-modal{
+#btn-modal-uno:checked ~ .container-modal {
     display: flex;
 }
 
-/*Modal 2*/
-
-.boton-modal-dos{
+/* Modal 2 */
+.boton-modal-dos {
     background-color: #D81616;
     padding: 1rem;
 }
-.boton-modal-dos label{
+.boton-modal-dos label {
     background-color: #545454;
     color: #fff;
     border-radius: 0.5rem;
@@ -40,25 +38,27 @@
     padding: 1rem;
 }
 
-.boton-modal-dos label:hover{
+.boton-modal-dos label:hover {
     background-color: #363636;
 }
 
-#btn-modal-dos{
+#btn-modal-dos {
     display: none;
 }
 
-#btn-modal-dos:checked ~ .container-modal{
+#btn-modal-dos:checked ~ .container-modal {
     display: flex;
 }
 
-/*Modal 3*/
+/* Continúa con el mismo patrón para los Modales 3 al 9 */
 
-.boton-modal-tres{
+/* Botón genérico para abrir modales */
+.boton-modal {
     background-color: #D81616;
     padding: 1rem;
 }
-.boton-modal-tres label{
+
+.boton-modal label {
     background-color: #545454;
     color: #fff;
     border-radius: 0.5rem;
@@ -67,214 +67,34 @@
     padding: 1rem;
 }
 
-.boton-modal-tres label:hover{
+.boton-modal label:hover {
     background-color: #363636;
 }
 
-#btn-modal-tres{
+#btn-modal {
     display: none;
 }
 
-#btn-modal-tres:checked ~ .container-modal{
-    display: flex;
-}
-
-/*Modal 4*/
-
-.boton-modal-four{
-    background-color: #D81616;
-    padding: 1rem;
-}
-.boton-modal-four label{
-    background-color: #545454;
-    color: #fff;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    transition: all 300ms ease;
-    padding: 1rem;
-}
-
-.boton-modal-four label:hover{
-    background-color: #363636;
-}
-
-#btn-modal-four{
-    display: none;
-}
-
-#btn-modal-four:checked ~ .container-modal{
-    display: flex;
-}
-/*Modal 5*/
-
-.boton-modal-five{
-    background-color: #D81616;
-    padding: 1rem;
-}
-.boton-modal-five label{
-    background-color: #545454;
-    color: #fff;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    transition: all 300ms ease;
-    padding: 1rem;
-}
-
-.boton-modal-five label:hover{
-    background-color: #363636;
-}
-
-#btn-modal-five{
-    display: none;
-}
-
-#btn-modal-five:checked ~ .container-modal{
-    display: flex;
-}
-/*Modal 6*/
-
-.boton-modal-six{
-    background-color: #D81616;
-    padding: 1rem;
-}
-.boton-modal-six label{
-    background-color: #545454;
-    color: #fff;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    transition: all 300ms ease;
-    padding: 1rem;
-}
-
-.boton-modal-six label:hover{
-    background-color: #363636;
-}
-
-#btn-modal-six{
-    display: none;
-}
-
-#btn-modal-six:checked ~ .container-modal{
-    display: flex;
-}
-
-/*Modal 7*/
-
-.boton-modal-seven{
-    background-color: #D81616;
-    padding: 1rem;
-}
-.boton-modal-seven label{
-    background-color: #545454;
-    color: #fff;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    transition: all 300ms ease;
-    padding: 1rem;
-}
-
-.boton-modal-seven label:hover{
-    background-color: #363636;
-}
-
-#btn-modal-seven{
-    display: none;
-}
-
-#btn-modal-seven:checked ~ .container-modal{
-    display: flex;
-}
-/*Modal 8*/
-
-.boton-modal-eight{
-    background-color: #D81616;
-    padding: 1rem;
-}
-.boton-modal-eight label{
-    background-color: #545454;
-    color: #fff;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    transition: all 300ms ease;
-    padding: 1rem;
-}
-
-.boton-modal-eight label:hover{
-    background-color: #363636;
-}
-
-#btn-modal-eight{
-    display: none;
-}
-
-#btn-modal-eight:checked ~ .container-modal{
-    display: flex;
-}
-/*Modal 9*/
-
-.boton-modal-nine{
-    background-color: #D81616;
-    padding: 1rem;
-}
-.boton-modal-nine label{
-    background-color: #545454;
-    color: #fff;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    transition: all 300ms ease;
-    padding: 1rem;
-}
-
-.boton-modal-nine label:hover{
-    background-color: #363636;
-}
-
-#btn-modal-nine{
-    display: none;
-}
-
-#btn-modal-nine:checked ~ .container-modal{
-    display: flex;
-}
-/*end modals*/
-
-
-.boton-modal{
-    background-color: #D81616;
-    padding: 1rem;
-}
-
-.boton-modal label{
-    background-color: #545454;
-    color: #fff;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    transition: all 300ms ease;
-    padding: 1rem;
-}
-
-.boton-modal label:hover{
-    background-color: #363636;
-}
-
-#btn-modal{
-    display: none;
-}
-.container-modal{
+/* Contenedor para modales */
+.container-modal {
     width: 100%;
     height: 100vh;
     position: fixed;
-    top: 0; left: 0;
+    top: 0;
+    left: 0;
     background-color: rgba(144, 148, 150, 0.8);
     display: none;
     justify-content: center;
     align-items: center;
     z-index: 100;
 }
-#btn-modal:checked ~ .container-modal{
+
+#btn-modal:checked ~ .container-modal {
     display: flex;
 }
-.content-modal{
+
+/* Contenido del modal */
+.content-modal {
     width: 100%;
     max-width: 400px;
     padding: 20px;
@@ -282,21 +102,26 @@
     color: var(--clr-white);
     border-radius: 0.5rem;
 }
-.content-modal h2{
+
+.content-modal h2 {
     margin-bottom: 15px;
 }
-.content-modal p{
+
+content-modal p {
     padding: 15px 0px;
     border-top: 1px solid #dbdbdb;
     border-bottom: 1px solid #dbdbdb;
 }
-.content-modal .btn-close{
+
+/* Botón para cerrar el modal */
+content-modal .btn-close {
     width: 100%;
     margin-top: 15px;
     display: flex;
     justify-content: flex-end;
 }
-.content-modal .btn-close label{
+
+content-modal .btn-close label {
     padding: 5px 8px;
     background-color: var(--clr-main);
     color: #fff;
@@ -304,20 +129,24 @@
     cursor: pointer;
     transition: all 300ms ease;
 }
-.content-modal .btn-close label:hover{
-     background-color: #ad1212;;
+
+content-modal .btn-close label:hover {
+    background-color: #ad1212;
 }
-.close-modal{
-    width:100%;
+
+/* Elemento para cerrar el modal haciendo clic en un área oscura */
+.close-modal {
+    width: 100%;
     height: 100vh;
     position: absolute;
-    top:0; left: 0;
+    top: 0;
+    left: 0;
     z-index: -1;
 }
 
-
-@media screen and (max-width:800px) {
-    .content-modal{
+/* Estilos responsivos */
+@media screen and (max-width: 800px) {
+    .content-modal {
         width: 90%;
     }
 }

@@ -1,59 +1,57 @@
-.footer-container{
-    display: grid;
-    border-top-left-radius: 6rem;
-    border-top-right-radius: 6rem;
-    color: var(--clr-white);
-    width: 100vw;
-    margin: 2rem 0 0;
-    background: var(--clr-main);
+/* Estilos para el contenedor del pie de página */
+.footer-container {
+    display: grid; /* Establece el elemento como una cuadrícula */
+    border-top-left-radius: 6rem; /* Borde redondeado superior izquierdo de 6rem */
+    border-top-right-radius: 6rem; /* Borde redondeado superior derecho de 6rem */
+    color: var(--clr-white); /* Color de texto definido en una variable CSS */
+    width: 100vw; /* Ancho del 100% del ancho de la ventana */
+    margin: 2rem 0 0; /* Márgenes superior de 2rem, sin márgenes a la izquierda y derecha, y sin márgenes inferiores */
+    background: var(--clr-main); /* Color de fondo definido en una variable CSS */
 }
 
-.footer-content{
-    display: grid;
-    width: 80vw;
-    margin: 2rem auto;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
-    
+/* Estilos para el contenido del pie de página */
+.footer-content {
+    display: grid; /* Establece el elemento como una cuadrícula */
+    width: 80vw; /* Ancho del 80% del ancho de la ventana */
+    margin: 2rem auto; /* Márgenes superior e inferior de 2rem, márgenes izquierdo y derecho automáticos */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Diseño de columnas de cuadrícula responsivo */
+    gap: 1.5rem; /* Espacio entre elementos de 1.5rem */
 }
 
-.footer-links{
-    display: grid;
-    margin: .05rem auto;
-    grid-template-columns: repeat(auto-fit, minmax(146px, 1fr));
-    gap: 1rem;
+/* Estilos para los enlaces del pie de página */
+.footer-links {
+    display: grid; /* Establece el elemento como una cuadrícula */
+    margin: .05rem auto; /* Márgenes superior e inferior de .05rem, márgenes izquierdo y derecho automáticos */
+    grid-template-columns: repeat(auto-fit, minmax(146px, 1fr)); /* Diseño de columnas de cuadrícula responsivo */
+    gap: 1rem; /* Espacio entre elementos de 1rem */
 }
 
-.nav-footer-list{
-    padding: 0;
-    list-style-type: none;
+/* Estilos para la lista de navegación en el pie de página */
+.nav-footer-list {
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    list-style-type: none; /* Elimina los marcadores de lista */
 }
 
-.nav-footer-link{
-    color: var(--clr-white);
-    text-decoration: none;
-    font-size: var(--fs-md);
+/* Estilos para los enlaces de navegación en el pie de página */
+.nav-footer-link {
+    color: var(--clr-white); /* Color de texto definido en una variable CSS */
+    text-decoration: none; /* Elimina la decoración de texto (enlace) */
+    font-size: var(--fs-md); /* Tamaño de fuente definido en una variable CSS */
 }
 
-.footer-legal{
-    text-align: center;
-    font-size: var(--fs-md);
+/* Estilos para el texto legal en el pie de página */
+.footer-legal {
+    text-align: center; /* Alinea el texto al centro */
+    font-size: var(--fs-md); /* Tamaño de fuente definido en una variable CSS */
 }
 
-.download-app{
-    width: 80vw;
-    margin: auto;
-}
-.footer-decoration{
-    text-decoration: overline;
+/* Estilos para la sección de descarga de la aplicación en el pie de página */
+.download-app {
+    width: 80vw; /* Ancho del 80% del ancho de la ventana */
+    margin: auto; /* Centra el elemento horizontalmente */
 }
 
-
-
-
-
-
-
-
-
-
+/* Estilos para elementos con la clase .footer-decoration */
+.footer-decoration {
+    text-decoration: overline; /* Establece una línea superior decorativa */
+}

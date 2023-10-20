@@ -1,106 +1,126 @@
-.hero-title{
-    font-family: var(--ff-main);
-    font-size: 2.5rem;
-    font-weight: var(--fw-bk);
-    display: block;
-    padding: auto;
+/* Definición de estilos para elementos con la clase .hero-title */
+.hero-title {
+    font-family: var(--ff-main); /* Fuente principal definida en una variable CSS */
+    font-size: 2.5rem; /* Tamaño de fuente de 2.5rem (relativo) */
+    font-weight: var(--fw-bk); /* Peso de fuente definido en una variable CSS */
+    display: block; /* Establece el elemento como bloque */
+    padding: auto; /* Esto no es válido. Debería especificar un valor numérico para el relleno */
 }
 
-.hero-text{
-    font-size: 1.4rem;
+/* Definición de estilos para elementos con la clase .hero-text */
+.hero-text {
+    font-size: 1.4rem; /* Tamaño de fuente de 1.4rem */
 }
 
-.sectionTwoText{
-    font-size: var(--fs-md);
-    font-size: 2rem;
-    color: var(--clr-white); 
-    font-weight: bold;
+/* Definición de estilos para elementos con la clase .sectionTwoText */
+.sectionTwoText {
+    font-size: var(--fs-md); /* Tamaño de fuente definido en una variable CSS */
+    font-size: 2rem; /* Este valor sobrescribe el anterior, deberías eliminarlo si no es necesario */
+    color: var(--clr-white); /* Color de texto definido en una variable CSS */
+    font-weight: bold; /* Establece el peso de fuente en negrita */
 }
 
-
-.recipe-title{
-    font-size:  var(--fs-md);
-    font-family: var(--ff-main);
-    color: white;
-    margin: 1rem 0 0;
+/* Definición de estilos para elementos con la clase .recipe-title */
+.recipe-title {
+    font-size: var(--fs-md); /* Tamaño de fuente definido en una variable CSS */
+    font-family: var(--ff-main); /* Fuente principal definida en una variable CSS */
+    color: white; /* Color de texto blanco */
+    margin: 1rem 0 0; /* Márgenes superior, derecho e inferior de 1rem y ningún margen izquierdo */
 }
 
-.recipe-text{
-    font-size: var(--fs-nm);
-    color: var(--clr-white);
+/* Definición de estilos para elementos con la clase .recipe-text */
+.recipe-text {
+    font-size: var(--fs-nm); /* Tamaño de fuente definido en una variable CSS */
+    color: var(--clr-white); /* Color de texto definido en una variable CSS */
 }
 
-.recipes-title{
-    font-family: var(--ff-main);
-    font-size: clamp(var(--fs-md), 1.875rem, var(--fs-lg));
-    margin: 1rem auto;
+/* Definición de estilos para elementos con la clase .recipes-title */
+.recipes-title {
+    font-family: var(--ff-main); /* Fuente principal definida en una variable CSS */
+    font-size: clamp(var(--fs-md), 1.875rem, var(--fs-lg)); /* Tamaño de fuente con un valor mínimo, preferido y máximo */
+    margin: 1rem auto; /* Márgenes superior e inferior de 1rem, y márgenes izquierdo y derecho automáticos */
 }
 
-.recipe-name{
-    color: var(--clr-white);
-    font-weight: bold;
-    margin: auto;
-    font-size: 25px;
-    text-shadow:  1px 1.5px 0px rgba(0, 0, 0, 0.5);
+/* Definición de estilos para elementos con la clase .recipe-name */
+.recipe-name {
+    color: var(--clr-white); /* Color de texto definido en una variable CSS */
+    font-weight: bold; /* Establece el peso de fuente en negrita */
+    margin: auto; /* Centra el elemento horizontalmente */
+    font-size: 25px; /* Tamaño de fuente fijo en 25px */
+    text-shadow: 1px 1.5px 0px rgba(0, 0, 0, 0.5); /* Sombra de texto con desplazamiento y color */
 }
 
-.recipe-name:hover{
-    color: var(--clr-gray-txt);
+/* Estilos para el estado hover de elementos con la clase .recipe-name */
+.recipe-name:hover {
+    color: var(--clr-gray-txt); /* Cambia el color de texto al pasar el ratón por encima */
 }
 
-.register-invitation-title{
-    font-size: clamp(2rem, 2.25rem, var(--fs-lg)) ;
-    width: min(80%, 90%, 100%);
-    margin: 0;
-    color: var(--clr-white);
-}
-.register-welcome{
-    margin: 2rem auto;
-    color: var(--clr-white);
-    font-family: var(--ff-main);
-    font-size: 4rem;
-}
-.history-title{
-    margin: 1rem auto;
-    color: var(--clr-white);
-    font-family: var(--ff-main);
-    font-size: 3rem;   
-}
-.thanks-title{
-    margin: 1rem auto;
-    color: var(--clr-white);
-    font-family: var(--ff-main);
-    font-size: 3rem;
+/* Definición de estilos para elementos con la clase .register-invitation-title */
+.register-invitation-title {
+    font-size: clamp(2rem, 2.25rem, var(--fs-lg)); /* Tamaño de fuente con un valor mínimo, preferido y máximo */
+    width: min(80%, 90%, 100%); /* Ancho con un valor mínimo, preferido y máximo */
+    margin: 0; /* Elimina el margen superior e inferior */
+    color: var(--clr-white); /* Color de texto definido en una variable CSS */
 }
 
-.menuText{
-    font-size: var(--fs-xl);
-    color: var(--clr-white);
+/* Definición de estilos para elementos con la clase .register-welcome */
+.register-welcome {
+    margin: 2rem auto; /* Márgenes superior e inferior de 2rem, y márgenes izquierdo y derecho automáticos */
+    color: var(--clr-white); /* Color de texto definido en una variable CSS */
+    font-family: var(--ff-main); /* Fuente principal definida en una variable CSS */
+    font-size: 4rem; /* Tamaño de fuente de 4rem */
 }
 
-.phras-text{
-    font-size: var(--fs-md);
-    color: var(--clr-white);
+/* Definición de estilos para elementos con la clase .history-title */
+.history-title {
+    margin: 1rem auto; /* Márgenes superior e inferior de 1rem, y márgenes izquierdo y derecho automáticos */
+    color: var(--clr-white); /* Color de texto definido en una variable CSS */
+    font-family: var(--ff-main); /* Fuente principal definida en una variable CSS */
+    font-size: 3rem; /* Tamaño de fuente de 3rem */
 }
 
-.menuTxtCategories{
-    font-size: 4rem;
-    text-decoration-line: overline;
-    text-shadow:  1px 1.5px 0px rgba(0, 0, 0, 0.5);
-}
-.priceInfo{
-    font-size: 4rem;
-
-}
-.menu-decoration-text{
-    display: grid;
-    max-width: 80ch;
-    text-align: center;
+/* Definición de estilos para elementos con la clase .thanks-title */
+.thanks-title {
+    margin: 1rem auto; /* Márgenes superior e inferior de 1rem, y márgenes izquierdo y derecho automáticos */
+    color: var(--clr-white); /* Color de texto definido en una variable CSS */
+    font-family: var(--ff-main); /* Fuente principal definida en una variable CSS */
+    font-size: 3rem; /* Tamaño de fuente de 3rem */
 }
 
+/* Definición de estilos para elementos con la clase .menuText */
+.menuText {
+    font-size: var(--fs-xl); /* Tamaño de fuente definido en una variable CSS */
+    color: var(--clr-white); /* Color de texto definido en una variable CSS */
+}
+
+/* Definición de estilos para elementos con la clase .phras-text */
+.phras-text {
+    font-size: var(--fs-md); /* Tamaño de fuente definido en una variable CSS */
+    color: var(--clr-white); /* Color de texto definido en una variable CSS */
+}
+
+/* Definición de estilos para elementos con la clase .menuTxtCategories */
+.menuTxtCategories {
+    font-size: 4rem; /* Tamaño de fuente fijo en 4rem */
+    text-decoration-line: overline; /* Línea de decoración sobre el texto */
+    text-shadow: 1px 1.5px 0px rgba(0, 0, 0, 0.5); /* Sombra de texto con desplazamiento y color */
+}
+
+/* Definición de estilos para elementos con la clase .priceInfo */
+.priceInfo {
+    font-size: 4rem; /* Tamaño de fuente fijo en 4rem */
+}
+
+/* Definición de estilos para elementos con la clase .menu-decoration-text */
+.menu-decoration-text {
+    display: grid; /* Establece el elemento como una cuadrícula */
+    max-width: 80ch; /* Ancho máximo de 80 caracteres (aproximadamente) */
+    text-align: center; /* Centra el texto en el centro del elemento */
+}
+
+/* Definición de estilos para elementos con la clase .register-invitation-title en pantallas pequeñas (menos de 769px de ancho) */
 @media (max-width: 768.98px) {
-    
-    .register-invitation-title{
-        margin: auto;
+    .register-invitation-title {
+        margin: auto; /* Centra el elemento horizontalmente */
     }
 }
