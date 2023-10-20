@@ -1,55 +1,55 @@
 /* Estilos para imágenes dentro de elementos con la clase .food-items */
 .food-items img {
-    position: relative; /* Establece la posición como relativa */
-    width: 100%; /* Ancho del 100% del contenedor padre */
-    border-radius: 15px 15px 0 0; /* Borde redondeado personalizado */
+    position: relative; 
+    width: 100%; 
+    border-radius: 15px 15px 0 0;
 }
 
 /* Estilos para elementos con la clase .details */
 .details {
-    padding: 20px 10px; /* Relleno de 20px arriba y abajo, y 10px a la izquierda y derecha */
-    display: grid; /* Establece el elemento como una cuadrícula */
-    grid-template-rows: auto 1fr 50px; /* Definición de filas de la cuadrícula */
-    grid-row-gap: 15px; /* Espacio entre filas de 15px */
+    padding: 20px 10px; 
+    display: grid; 
+    grid-template-rows: auto 1fr 50px; 
+    grid-row-gap: 15px; 
 }
 
 /* Estilos para elementos con la clase .details-sub */
 .details-sub {
-    display: grid; /* Establece el elemento como una cuadrícula */
-    grid-template-columns: auto auto; /* Definición de columnas de la cuadrícula */
+    display: grid;
+    grid-template-columns: auto auto; 
 }
 
 /* Estilos para elementos h5 dentro de .details-sub */
 .details-sub > h5 {
-    font-weight: 600; /* Establece el peso de fuente en negrita */
-    font-size: 18px; /* Tamaño de fuente de 18px */
+    font-weight: 600; 
+    font-size: 18px; 
 }
 
 /* Estilos para elementos con la clase .price */
 .price {
-    text-align: right; /* Alinea el texto a la derecha */
+    text-align: right; 
 }
 
 /* Estilos para párrafos dentro de elementos con la clase .details */
 .details > p {
-    color: #6f6f6f; /* Color de texto gris */
-    font-size: 15px; /* Tamaño de fuente de 15px */
-    line-height: 28px; /* Altura de línea de 28px */
-    font-weight: 400; /* Establece el peso de fuente en normal */
-    align-self: stretch; /* Alinea el elemento verticalmente */
+    color: #6f6f6f; 
+    font-size: 15px;
+    line-height: 28px; 
+    font-weight: 400; 
+    align-self: stretch; 
 }
 
 /* Estilos para enlaces dentro de elementos con la clase .details */
 .details > a {
-    background-color: #cb202d; /* Color de fondo */
-    border: none; /* Sin borde */
-    color: #ffffff; /* Color de texto blanco */
-    font-size: 16px; /* Tamaño de fuente de 16px */
-    font-weight: 600; /* Establece el peso de fuente en negrita */
-    border-radius: 5px; /* Borde redondeado de 5px */
-    width: 180px; /* Ancho de 180px */
-    cursor: pointer; /* Cambia el cursor al estilo de puntero */
-    text-decoration: none; /* Elimina la decoración de texto (enlace) */
-    display: flex; /* Establece el elemento como una caja flexible */
-    padding: 1rem; /* Relleno de 1rem */
+    background-color: #cb202d; 
+    border: none; 
+    color: #ffffff; 
+    font-size: 16px; 
+    font-weight: 600; 
+    border-radius: 5px; 
+    width: 180px; 
+    cursor: pointer; 
+    text-decoration: none; 
+    display: flex; 
+    padding: 1rem; 
 }

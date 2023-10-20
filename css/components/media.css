@@ -1,59 +1,59 @@
 /* Estilos para elementos con la clase .rice-image */
 .rice-image {
-    width: 13.688rem; /* Ancho de 13.688rem */
-    height: 11.125rem; /* Altura de 11.125rem */
-    margin: auto; /* Centra el elemento horizontalmente */
+    width: 13.688rem; 
+    height: 11.125rem; 
+    margin: auto; 
 }
 
 /* Estilos para elementos con la clase .register-invitation-image */
 .register-invitation-image {
-    display: block; /* Establece el elemento como bloque */
-    width: 50%; /* Ancho del 50% del contenedor padre */
-    margin-left: 50%; /* Margen izquierdo del 50% para centrar horizontalmente */
-    border-radius: 0 4.5rem 4.5rem 0; /* Borde redondeado personalizado */
+    display: block; 
+    width: 50%;
+    margin-left: 50%; 
+    border-radius: 0 4.5rem 4.5rem 0; 
 }
 
 /* Estilos para elementos con la clase .recipe-image */
 .recipe-image {
-    object-fit: cover; /* Ajusta la imagen para llenar el contenedor sin deformarla */
-    object-position: center; /* Centra la imagen horizontal y verticalmente */
-    display: block; /* Establece el elemento como bloque */
-    width: 100%; /* Ancho del 100% del contenedor padre */
-    border-radius: 1rem; /* Borde redondeado de 1rem */
-    margin: 1rem auto 1rem; /* Márgenes superior e inferior de 1rem y margen izquierdo y derecho automáticos */
+    object-fit: cover; 
+    object-position: center; 
+    display: block; 
+    width: 100%;
+    border-radius: 1rem; 
+    margin: 1rem auto 1rem; 
 }
 
 /* Estilos para elementos con las clases .instagram, .facebook y .twitter */
 .instagram, .facebook, .twitter {
-    height: 55.89px; /* Altura de 55.89px */
-    width: 59px; /* Ancho de 59px */
+    height: 55.89px; 
+    width: 59px; 
 }
 
 /* Estilos para elementos con la clase .cart-card */
 .cart-card {
-    width: 4rem; /* Ancho de 4rem */
-    height: 4rem; /* Altura de 4rem */
-    cursor: pointer; /* Cambia el cursor al estilo de puntero */
-    background: url(../../imgs/icons/carrito.svg); /* Imagen de fondo desde la ruta especificada */
-    background-size: cover; /* Ajusta la imagen para cubrir el contenedor */
-    background-position: center; /* Centra la imagen horizontal y verticalmente */
-    border: none; /* Sin borde */
+    width: 4rem; 
+    height: 4rem; 
+    cursor: pointer; 
+    background: url(../../imgs/icons/carrito.svg); 
+    background-size: cover;
+    background-position: center;
+    border: none; 
 }
 
 /* Estilos para elementos con la clase .icon-persons */
 .icon-persons {
-    width: 4rem; /* Ancho de 4rem */
-    height: 4rem; /* Altura de 4rem */
-    cursor: pointer; /* Cambia el cursor al estilo de puntero */
-    border: none; /* Sin borde */
+    width: 4rem; 
+    height: 4rem; 
+    cursor: pointer; 
+    border: none; 
 }
 
 /* Estilos dentro del media query para pantallas de ancho máximo de 768.98px */
 @media (max-width: 768.98px) {
     /* Estilos para elementos con la clase .register-invitation-image en pantallas pequeñas */
     .register-invitation-image {
-        margin: auto; /* Centra el elemento horizontalmente */
-        text-align: center; /* Alinea el texto al centro */
-        border-radius: 0; /* Borde redondeado a 0 (sin redondeo) */
+        margin: auto; 
+        text-align: center; 
+        border-radius: 0; 
     }
 }

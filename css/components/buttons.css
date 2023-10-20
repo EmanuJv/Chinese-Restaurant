@@ -1,82 +1,82 @@
 /* Estilos generales para elementos con la clase .btn */
 .btn {
-    display: grid; /* Establece el elemento como una cuadrícula */
-    align-items: center; /* Alinea el contenido verticalmente en el centro */
-    border-radius: 1.5rem; /* Borde redondeado de 1.5rem */
-    padding: .5rem 2rem; /* Relleno de 0.5rem arriba y abajo, y 2rem a la izquierda y derecha */
-    text-decoration: none; /* Elimina la decoración de texto (enlace) */
+    display: grid; 
+    align-items: center; 
+    border-radius: 1.5rem; 
+    padding: .5rem 2rem; 
+    text-decoration: none; 
 }
 
 
 /* Estilos para botones con la clase .go-to-menu-btn */
 .go-to-menu-btn {
-    text-align: center; /* Alinea el texto al centro */
-    background: rgba(29, 28, 28, 1); /* Color de fondo con valores RGBA */
-    box-shadow: 5px 5px 10px rgba(0, 0.5, 0.5, 0.5); /* Sombra con desplazamiento y color */
-    color: #FFFFFF; /* Color de texto blanco */
-    font-size: 1.5rem; /* Tamaño de fuente de 1.5rem */
-    margin-top: 1rem; /* Margen superior de 1rem */
-    width: 14rem; /* Ancho de 14rem */
-    height: 3rem; /* Altura de 3rem */
-    border-radius: 37px; /* Borde redondeado con valor de radio */
+    text-align: center; 
+    background: rgba(29, 28, 28, 1); 
+    box-shadow: 5px 5px 10px rgba(0, 0.5, 0.5, 0.5); 
+    color: #FFFFFF; 
+    font-size: 1.5rem; 
+    margin-top: 1rem; 
+    width: 14rem; 
+    height: 3rem; 
+    border-radius: 37px; 
 }
 
 /* Estilos de botón .go-to-menu-btn al pasar el ratón por encima */
 .go-to-menu-btn:hover {
-    background-color: var(--clr-main); /* Cambia el color de fondo al pasar el ratón por encima */
+    background-color: var(--clr-main); 
 }
 
 
 /* Estilos para botones con la clase .register-invitation-btn */
 .register-invitation-btn {
-    text-align: center; /* Alinea el texto al centro */
-    background: #DCDCDC; /* Color de fondo gris */
-    box-shadow: 5px 5px 10px rgba(0, 0.5, 0.5, 0.5); /* Sombra con desplazamiento y color */
-    color: #000000; /* Color de texto negro */
-    font-size: 1.5rem; /* Tamaño de fuente de 1.5rem */
-    font-weight: bold; /* Establece el peso de fuente en negrita */
-    height: 3rem; /* Altura de 3rem */
-    border-radius: 37px; /* Borde redondeado con valor de radio */
-    transition: background-color 0.3s; /* Transición para el cambio de color de fondo */
-    cursor: pointer; /* Cambia el cursor al estilo de puntero al pasar el ratón por encima */
+    text-align: center; 
+    background: #DCDCDC; 
+    box-shadow: 5px 5px 10px rgba(0, 0.5, 0.5, 0.5); 
+    color: #000000; 
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    height: 3rem; 
+    border-radius: 37px; 
+    transition: background-color 0.3s; 
+    cursor: pointer;
 }
 
 /* Estilos de botón .register-invitation-btn al pasar el ratón por encima */
 .register-invitation-btn:hover {
-    background-color: var(--clr-main); /* Cambia el color de fondo al pasar el ratón por encima */
+    background-color: var(--clr-main); 
 }
 
 
 
 /* Estilos para botones con la clase .btn-price-modal */
 .btn-price-modal {
-    color: var(--clr-white); /* Color de texto definido en una variable CSS */
-    font-size: 2.5rem; /* Tamaño de fuente de 2.5rem */
-    text-decoration: none; /* Elimina la decoración de texto (enlace) */
-    font-weight: bold; /* Establece el peso de fuente en negrita */
+    color: var(--clr-white);
+    font-size: 2.5rem; 
+    text-decoration: none; 
+    font-weight: bold; 
 }
 
 /* Estilos de botón .btn-price-modal al pasar el ratón por encima */
 .btn-price-modal:hover {
-    color: #ad1212; /* Cambia el color de texto al pasar el ratón por encima */
+    color: #ad1212; 
 }
 
 /* Estilos para botones con la clase .btn-order-modal */
 .btn-order-modal {
-    background: var(--clr-main); /* Color de fondo definido en una variable CSS */
-    box-shadow: 5px 5px 10px rgba(0, 0.5, 0.5, 0); /* Sombra con desplazamiento y color */
-    color: var(--clr-white); /* Color de texto definido en una variable CSS */
-    font-size: 1.5rem; /* Tamaño de fuente de 1.5rem */
-    border-radius: 0.5rem; /* Borde redondeado de 0.5rem */
-    padding: 0.5rem 1rem; /* Relleno de 0.5rem arriba y abajo, y 1rem a la izquierda y derecha */
-    transition: background-color 0.3s; /* Transición para el cambio de color de fondo */
-    cursor: pointer; /* Cambia el cursor al estilo de puntero al pasar el ratón por encima */
-    width: fit-content; /* Ancho se ajusta al contenido */
-    text-decoration: none; /* Elimina la decoración de texto (enlace) */
+    background: var(--clr-main); 
+    box-shadow: 5px 5px 10px rgba(0, 0.5, 0.5, 0); 
+    color: var(--clr-white); 
+    font-size: 1.5rem; 
+    border-radius: 0.5rem; 
+    padding: 0.5rem 1rem; 
+    transition: background-color 0.3s; 
+    cursor: pointer; 
+    width: fit-content; 
+    text-decoration: none; 
 }
 /* Estilos de botón .btn-order-modal al pasar el ratón por encima */
 .btn-order-modal:hover{
-     background-color: #930f0f; /* Cambia el color de fondo al pasar el ratón por encima */
+     background-color: #930f0f; 
 }
 /* Estilos para botones con la clase .btn-register */
 .btn-register{
