@@ -164,7 +164,7 @@
 /* Styles for the CTA, price, and order now container */
 .cta-price-orderNow {
     display: flex; 
-    justify-content: space between; 
+    justify-content: space-between; 
     padding: 1rem;
 }
 
